@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Mwenda Kanyi | News homepage</title>
+
+  
+  <script src="index.js"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- header section, containing the navigation bar -->
+  <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar__left">
+            <img src="assets/images/logo.svg" alt="logo">
+          </div>
+          
+          <div class="navbar__right">
+            <ul class="navbar__list">
+              <li class="navbar__list-item">Home</li>
+              <li class="navbar__list-item">New</li>
+              <li class="navbar__list-item">Popular</li>
+              <li class="navbar__list-item">Trending</li>
+              <li class="navbar__list-item">Categories</li>
+            </ul>
+          </div>
+
+          <div class="navbar__right-mobile">
+            <div class="hamburger">
+              <img src="assets/images/icon-menu.svg" alt="">
+            </div>
+            <div class="navbar__mobile hidden">
+              <div class="navbar__mobile-close">
+                <img src="assets/images/icon-menu-close.svg" alt="close">
+              </div>
+              <ul class="navbar__list_mobile">
+                <li class="navbar__list_mobile-item">Home</li>
+                <li class="navbar__list_mobile-item">New</li>
+                <li class="navbar__list_mobile-item">Popular</li>
+                <li class="navbar__list_mobile-item">Trending</li>
+                <li class="navbar__list_mobile-item">Categories</li>
+              </ul>
+            </div>
+           
+          </div>
+        </nav>
+      </div>
+
+  </header>
+
+
+
+
+  <!-- hero section -->
+  <div class="feed">
+    <div class="container">
+      <div class="grid">
+        <div class="featured ">
+
+          <div class="featured-image">
+            <img src="assets/images/image-web-3-mobile.jpg" alt="" class="featured-image_mobile">
+            <img src="assets/images/image-web-3-mobile.jpg" alt="" class="featured-image_desktop">
+          </div>
+
+          <div class="featured__description">
+            <h1 class="featured-title"> The Bright Future of Web 3.0?</h1>
+            <div class="featured-text">
+              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?
+              </p>
+
+              <button class="accent-btn">
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="side">
+          <h1 class="side-title accent">New</h1>
+          <ul class="side__list">
+            <li class="side__list-item">
+              <h2 class="side__list-item_title"> Hydrogen VS Electric Cars</h2>
+              <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </li>
+
+            <li class="side__list-item">
+              <h2 class="side__list-item_title">  The Downsides of AI Artistry</h2>
+              <p> What are the possible adverse effects of on-demand AI image generation?</p>
+            </li>
+
+            <li class="side__list-item last">
+              <h2 class="side__list-item_title"> Is VC Funding Drying Up?</h2>
+              <p>  Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottom flex bottom1">
+          <div class="bottom__left">
+            <img src="assets/images/image-retro-pcs.jpg" alt="">
+          </div>
+          <div class="bottom__right ">
+            <h1 class="bottom__lead">01</h1>
+            <h2 class="bottom__title">Reviving Retro PCs</h2>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+
+        <div class="bottom flex bottom2">
+          <div class="bottom__left">
+            <img src="assets/images/image-top-laptops.jpg" alt="">
+          </div>
+          <div class="bottom__right ">
+            <h1 class="bottom__lead">02</h1>
+            <h2 class="bottom__title">Top 10 Laptops of 2022</h2>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+
+        <div class="bottom flex bottom3 ">
+          <div class="bottom__left">
+            <img src="assets/images/image-retro-pcs.jpg" alt="">
+          </div>
+          <div class="bottom__right ">
+            <h1 class="bottom__lead">03</h1>
+            <h2 class="bottom__title">The Growth of Gaming</h2>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+               
+        
+
+
+
+    </div>
+  </div>
+
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/kanyijr">Mwenda Kanyi</a>.
+  </div>
+</body>
+</html>
